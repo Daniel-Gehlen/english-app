@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastery English Pro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <h1>Mastery English Pro</h1>
+            <div class="user-progress">
+                <div class="progress-info">
+                    <span>Score: <span id="score">0</span></span>
+                    <span>Streak: <span id="streak">0</span></span>
+                    <span>Accuracy: <span id="accuracy">0%</span></span>
+                </div>
+                <div class="category-selector">
+                    <select id="category-select">
+                        <option value="all">All Categories</option>
+                        <option value="reading">Reading Comprehension</option>
+                        <option value="grammar">Grammar Analysis</option>
+                        <option value="vocabulary">Vocabulary Building</option>
+                        <option value="reference">Reference Words</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="text-display" id="text-display">
+                <!-- Full text will appear here -->
+            </div>
+
+            <div class="question-panel">
+                <div class="question-container" id="question-container">
+                    <!-- Question and options will appear here -->
+                </div>
+
+                <div class="feedback-container hidden" id="feedback-container">
+                    <div class="explanation-box">
+                        <h3><i class="fas fa-lightbulb"></i> Explanation</h3>
+                        <p id="explanation-text"></p>
+                    </div>
+                    <div class="vocabulary-box">
+                        <h3><i class="fas fa-book"></i> Vocabulary Builder</h3>
+                        <div id="vocabulary-tip"></div>
+                    </div>
+                    <div class="navigation-buttons">
+                        <button id="review-btn"><i class="fas fa-search"></i> Review Text</button>
+                        <button id="next-btn"><i class="fas fa-arrow-right"></i> Next Question</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="progress-container">
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <span id="progress-text">Question 1 of 50</span>
+            </div>
+        </main>
+
+        <div class="stats-panel hidden" id="stats-panel">
+            <h2>Session Results</h2>
+            <div class="stats-grid">
+                <div class="stat-card correct">
+                    <span class="stat-value" id="correct-count">0</span>
+                    <span class="stat-label">Correct</span>
+                </div>
+                <div class="stat-card incorrect">
+                    <span class="stat-value" id="incorrect-count">0</span>
+                    <span class="stat-label">Incorrect</span>
+                </div>
+                <div class="stat-card accuracy">
+                    <span class="stat-value" id="final-accuracy">0%</span>
+                    <span class="stat-label">Accuracy</span>
+                </div>
+                <div class="stat-card streak">
+                    <span class="stat-value" id="final-streak">0</span>
+                    <span class="stat-label">Best Streak</span>
+                </div>
+            </div>
+            <button id="restart-btn">Start New Session</button>
+        </div>
+    </div>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
