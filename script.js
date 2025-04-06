@@ -158,10 +158,227 @@ The British Law Commission has a project that particularly focuses on crypto-tok
                 }
             ]
         },
-        // Additional texts would be added here following the same structure
-        // Each with their complete content and full set of questions
+        {
+            id: 'CG1A2-II',
+            title: 'Climate Shadow Concept',
+            content: `The enormity of the global climate crisis is so vast that individual actions may seem meaningless: can installing LED lighting in my home or keeping my car tires inflated really help save the polar bears?
+
+First coined by Portland, Oregon-based writer Emma Pattee, the climate shadow aims to paint a picture of the full sum of one's choices — and the impact they have on the planet.
+
+In an article she wrote in 2021, Pattee detailed her concept for measuring an individual's impact: "Your climate shadow is a dark shape stretching out behind you. Everywhere you go, it goes too, tallying not just your air conditioning use and the gas mileage of your car, but also how you vote, how many children you choose to have, where you work, how you invest your money, how much you talk about climate change, and whether your words amplify urgency, apathy, or denial." The larger the shadow — the greater an individual's impact on doing good for the planet.
+
+In other words, rather than incentivizing purely individual actions, your climate shadow grows when those actions inspire others, knowingly or otherwise.`,
+            questions: [
+                {
+                    question: "Choose the option that presents a conclusion which can be correctly drawn from text CG1A2-II",
+                    options: [
+                        "The last sentence of the text makes it clear that the climate shadow is only about individual actions.",
+                        "The text suggests that individual actions are meaningless when we talk about the enormity of the global climate crisis.",
+                        "It is clear in the text that the climate shadow is something dangerous for the planet.",
+                        "The text suggests that one's climate shadow grows if individual actions inspire others, even if those are intentional or not.",
+                        "The climate shadow highlights the impact of large industries on the planet."
+                    ],
+                    correctAnswer: 3,
+                    explanation: "The text explicitly states that 'your climate shadow grows when those actions inspire others, knowingly or otherwise'.",
+                    category: "reading",
+                    vocabulary: {
+                        term: "climate shadow",
+                        definition: "The cumulative impact of all an individual's choices and actions on the climate",
+                        usage: "Your climate shadow includes not just your direct emissions but also your influence on others."
+                    }
+                }
+            ]
+        },
+        {
+            id: 'CG1A2-I',
+            title: 'William Shakespeare Biography',
+            content: `William Shakespeare (baptized April 26, 1564, Stratford-upon-Avon, Warwickshire, England — died April 23, 1616, Stratford-upon-Avon) was an English poet, dramatist, and actor often called the English national poet and considered by many to be the greatest dramatist of all time.
+
+Stratford enjoyed a grammar school of good quality, and the education there was free, the schoolmaster's salary being paid by the borough. No lists of the pupils who were at the school in the 16th century have survived, but it would be absurd to suppose the bailiff of the town did not send his son there. The boy's education would consist mostly of Latin studies — learning to read, write, and speak the language fairly well and studying some of the Classical historians, moralists, and poets. Shakespeare did not go on to the university, and indeed it is unlikely that the scholarly round of logic, rhetoric, and other studies then followed there would have interested him.`,
+            questions: [
+                {
+                    question: "About the ideas and the linguistic aspects of text CG1A2-I, choose the correct option.",
+                    options: [
+                        "Shakespeare had the opportunity to learn more about the Classical historians, moralists, and poets in university.",
+                        "The word 'bailiff' has the same meaning as mayor.",
+                        "The word 'schoolmaster' has the same meaning as school director.",
+                        "The last sentence of the text gives the idea that Shakespeare did not like to study.",
+                        "The text is not clear about Shakespeare's date of birth."
+                    ],
+                    correctAnswer: 4,
+                    explanation: "The text mentions Shakespeare's baptism date but doesn't explicitly state his birth date, which could be different in that historical period.",
+                    category: "reading",
+                    vocabulary: {
+                        term: "bailiff",
+                        definition: "A local official with administrative duties in medieval England",
+                        synonyms: ["town official", "magistrate"],
+                        usage: "The bailiff was responsible for maintaining order in the town."
+                    }
+                },
+                {
+                    question: "About text CG1A2-I, judge the following items.",
+                    options: [
+                        "It can be inferred from the sentence 'Stratford enjoyed a grammar school of good quality' that the school in Stratford that time taught only grammatical topics.",
+                        "Although there are no school records available, it is believed that Shakespeare attended the Stratford grammar school.",
+                        "It is correct to infer from the text that Shakespeare's father was the bailiff of the town.",
+                        "In school, Shakespeare did not like subjects about logic and rhetoric."
+                    ],
+                    correctAnswer: 1,
+                    explanation: "The text states it would be 'absurd to suppose the bailiff of the town did not send his son there', strongly implying Shakespeare attended.",
+                    category: "inference",
+                    vocabulary: {
+                        term: "grammar school",
+                        definition: "In Renaissance England, a school that taught Latin and classical literature",
+                        usage: "Grammar schools in Shakespeare's time focused on classical education."
+                    }
+                }
+            ]
+        },
+        {
+            id: '18A3-I',
+            title: 'Hydroelectric Power',
+            content: `The roar of a waterfall suggests the power of water. Rampaging floodwaters can uproot strong trees and twist railroad tracks. When the power of water is harnessed, however, it can do useful work for humans.
+
+Since ancient times, people have put the energy in the flow of water to work. They first made water work for them with the waterwheel, a wheel with paddles around its rim. Flowing water rotated the waterwheel, which in turn ran machinery that was linked to it. Today, new kinds of waterwheels – turbines – spin generators that produce electricity. Electricity from water-turned generators is known as hydroelectricity.
+
+By building a dam across a river, the natural upstream water level is elevated and a difference in head is created that can be used to drive turbines and generate electricity. A large upstream reservoir may balance seasonal water flow; rain or melted snow can be stored in the reservoir during the wet season to provide electricity during dry seasons.
+
+Waterpower is distributed unevenly among the continents and nations of the world. Europe and North America have developed much of their waterpower. Asia, South America, and Africa have abundant waterpower potential, but while countries such as China and Brazil have become leading hydroelectric producers, much of the waterpower resource on those continents remains undeveloped.`,
+            questions: [
+                {
+                    question: "In the first paragraph of text 18A3-I, the expression which best suggests an image of the power of man over rivers is",
+                    options: [
+                        "uproot strong trees",
+                        "the power of water is harnessed",
+                        "twist railroad tracks",
+                        "the power of water",
+                        "The roar of a waterfall"
+                    ],
+                    correctAnswer: 1,
+                    explanation: "'Harnessed' implies human control and utilization of natural power, contrasting with the destructive natural power described in other options.",
+                    category: "vocabulary",
+                    vocabulary: {
+                        term: "harness",
+                        synonyms: ["utilize", "control", "channel"],
+                        antonyms: ["release", "free"],
+                        usage: "Modern technology allows us to harness wind energy efficiently."
+                    }
+                }
+            ]
+        },
+        {
+            id: '9A2-II',
+            title: 'Teaching Methods',
+            content: `As I was driving, the snow had started falling in earnest. The light was flat, although it was midmorning, making it almost impossible to distinguish the highway. I turned on the radio to help me concentrate on the road ahead; the announcer was talking about the snow. "The state Highway department advises motorists to use extreme caution and to drive with their headlights on to ensure maximum visibility." He went on. "The state highway supervisor just called to say that one of the plows almost hit a car because the person driving hadn't turned on his lights." I checked, almost reflexively, to be sure that my headlights were on.
+
+How can information serve those who hear or read it in making sense of their own worlds? How can it enable them to reason about what they do and to take appropriate actions based on that reasoning? My experience with the radio illustrates two different ways of providing the same message: the need to use your headlights when you drive in heavy snow. The first offers dispassionate information; the second tells the same content in a personal, compelling story. The first disguises its point of view; the second explicitly grounds the general information in a particular time and place. Each means of giving information has its role, but I believe the second is ultimately more useful in helping people make sense of what they are doing. When I heard the story about the plow, I made sure my headlights were on.
+
+In what is written about teaching, it is rare to find accounts in which the author's experience and point of view are central. A point of view is not simply an opinion; neither is it a whimsical or impressionistic claim. Rather, a point of view lays out what the author thinks and why. The problem is that much of what is available in professional development in language-teacher education concentrates on telling rather than on point of view. The telling is prescriptive, like the radio announcer's first statement. It emphasizes what is important to know and do, what is current in theory and research, and therefore what you — as a practicing teacher — should do. But this telling disguises the teller; it hides the point of view that can enable you to make sense of what is told.`,
+            questions: [
+                {
+                    question: "Choose the option that presents a correct rewriting of the sentence about 'telling' (sixth sentence of the last paragraph), maintaining the original meaning and grammar correctness.",
+                    options: [
+                        "The telling way of information has to do with things a practicing teacher should know and do, and with what theory and research indicates, notwithstanding what he or she must do.",
+                        "The telling shows how important it is to know and do what is prescribed in theory and research, and consequently what a real teacher should do.",
+                        "This way of giving information focuses on what is important to know and do, and on what can be found in theory and research, and, thus, on what one — as a practicing teacher — should do.",
+                        "By placing the emphases on what a practicing teacher does, because it is a trend in theoretical and research areas, it is telling of what is important to know and to do.",
+                        "It shows what one should know and do that is prescribed for theory and research, and consequently, what guidance you, as a practicing teacher, should follow."
+                    ],
+                    correctAnswer: 2,
+                    explanation: "This option perfectly maintains the original meaning about focusing on important knowledge and research-based practices for teachers.",
+                    category: "grammar",
+                    vocabulary: {
+                        term: "prescriptive",
+                        definition: "Relating to the imposition or enforcement of rules",
+                        synonyms: ["authoritative", "dogmatic"],
+                        antonyms: ["descriptive", "flexible"]
+                    }
+                },
+                {
+                    question: "Choose the option that presents a conclusion which can be correctly drawn from the story reported by the announcer in the fragment about the plow almost hitting a car.",
+                    options: [
+                        "If the car driver turned his lights, the plow wouldn't have hit his car",
+                        "Had the car driver turned his lights on, the plow wouldn't have almost hit his car.",
+                        "The plows wouldn't have almost hit the car, had the driver kept the car lights off.",
+                        "There wouldn't have been an accident with the plows if the driver had turned his lights on.",
+                        "Had the car driver turned his lights on, there wouldn't have been an accident."
+                    ],
+                    correctAnswer: 1,
+                    explanation: "This correctly uses the conditional perfect tense to show the relationship between the lights being on and the near-miss.",
+                    category: "grammar",
+                    vocabulary: {
+                        term: "conditional perfect",
+                        definition: "A verb tense used to describe hypothetical past situations",
+                        example: "Had I known, I would have acted differently."
+                    }
+                },
+                {
+                    question: "According to the author of text 9A2-II,",
+                    options: [
+                        "by concentrating on point of view, language-teacher education would show future teachers what they should do and what kind of literature they should read.",
+                        "a point of view is too subjective to be taken seriously.",
+                        "language-teacher education should be more humane, subjective and personal.",
+                        "the telling method in language-teacher education leaves out the point of view on which what is being told is based.",
+                        "the language of telling is much more useful in language-teacher education than presenting people with points of view."
+                    ],
+                    correctAnswer: 3,
+                    explanation: "The author criticizes the 'telling' approach for hiding the underlying point of view that gives meaning to the information.",
+                    category: "reading",
+                    vocabulary: {
+                        term: "point of view",
+                        synonyms: ["perspective", "standpoint", "viewpoint"],
+                        usage: "The author's point of view becomes clear in the final chapter."
+                    }
+                }
+            ]
+        },
+        {
+            id: '9A2-I',
+            title: 'Theory in Language Teaching',
+            content: `In what is written about teaching, it is rare to find accounts in which the author's experience and point of view are central. A point of view is not simply an opinion; neither is it a whimsical or impressionistic claim. Rather, a point of view lays out what the author thinks and why. The problem is that much of what is available in professional development in language-teacher education concentrates on telling rather than on point of view. The telling is prescriptive, like the radio announcer's first statement. It emphasizes what is important to know and do, what is current in theory and research, and therefore what you — as a practicing teacher — should do. But this telling disguises the teller; it hides the point of view that can enable you to make sense of what is told.`,
+            questions: [
+                {
+                    question: "About the semantic and grammatical features of text 9A2-I, choose the correct option.",
+                    options: [
+                        "The word 'however' (second sentence of the first paragraph) is an adverb that can be correctly replaced with nonetheless.",
+                        "The pronoun 'them', in 'many of them' (first sentence of the text), refers back to 'language teaching and research circles'.",
+                        "The word 'that', in 'hold that' (first sentence of the second paragraph), is a pronoun which is the object of 'hold', and refers back to 'those who subscribe'.",
+                        "In 'for theorizing to be productive' (last sentence of the first paragraph), the word 'theorizing' is used as a noun and, as such, is the object of 'feel'.",
+                        "The fragment '(or think they don't)' (last sentence of the first paragraph) shows that the authors doubt some people don't have problems with theory."
+                    ],
+                    correctAnswer: 4,
+                    explanation: "The parenthetical remark suggests the authors are skeptical about claims of not having problems with theory.",
+                    category: "grammar",
+                    vocabulary: {
+                        term: "parenthetical",
+                        definition: "A word or phrase inserted as an explanation or afterthought",
+                        usage: "Parenthetical remarks are often set off by commas or parentheses."
+                    }
+                },
+                {
+                    question: "The expression 'theoretical red herring' (second sentence of the last paragraph) characterizes",
+                    options: [
+                        "a theorization that would take attention away from more important things.",
+                        "a very interesting hypothesis that has yet to be proved.",
+                        "a theoretical standpoint that gets attention for being popular in the media.",
+                        "a theory that has received considerable funding from a government or research institution.",
+                        "an opinion that is agreed upon by many theoreticians but has not been object of articles or books."
+                    ],
+                    correctAnswer: 0,
+                    explanation: "A 'red herring' is something that misleads or distracts from relevant issues, in this case theoretical distractions.",
+                    category: "vocabulary",
+                    vocabulary: {
+                        term: "red herring",
+                        definition: "Something that draws attention away from the central issue",
+                        origin: "From the practice of using strong-smelling fish to distract hunting dogs from a trail",
+                        usage: "The politician's response was a red herring that avoided the real question."
+                    }
+                }
+            ]
+        }
     ];
 
+    // [Rest of the JavaScript code remains exactly the same...]
     // Initialize the app
     function init() {
         // Combine all questions from all texts
